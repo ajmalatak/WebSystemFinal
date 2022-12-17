@@ -181,6 +181,7 @@
 </head>
 <body>
     <div class="topnav">
+        <l><img src="img/logo.png" style="width:80px"></l>
         <a href="logout.php">Logout</a>
         <a href="movie-search.php">Search for Movies</a>
         <a href="user-home.php">Your Profile</a>

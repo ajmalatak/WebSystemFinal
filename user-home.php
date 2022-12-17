@@ -150,6 +150,7 @@ if(!isset($_SESSION["sess_user"])){
 </head>    
 <body>    
     <div class="topnav">
+        <l><img src="img/logo.png" style="width:80px"></l>
         <a href="logout.php">Logout</a>
         <a href="movie-search.php">Search for Movies</a>
         <a href="recommendations.php">Get Recommendations</a>
@@ -209,6 +210,7 @@ if(!isset($_SESSION["sess_user"])){
                         echo "</md>";
                         if(isset($_POST["rem_fav".$element["film_id"]])){
                             try{
+                                $_SESSION["genres"] = array();
                                 mysqli_query($con, 'DELETE FROM favorite_movies WHERE film_id="'.$element["film_id"].'" AND username="'.$_SESSION['sess_user'].'"');
                                 echo "<script>location.reload();</script>";
                             }catch(mysqli_sql_exception $e){

@@ -173,6 +173,7 @@
 </head>
 <body>
     <div class="topnav">
+        <l><img src="img/logo.png" style="width:80px"></l>
         <a href="logout.php">Logout</a>
         <a href="user-home.php">Your Profile</a>
         <a href="recommendations.php">Get Recommendations</a>

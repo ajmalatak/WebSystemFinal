@@ -144,6 +144,7 @@
 </head>
 <body>
     <div class="topnav">
+        <l><img src="img/logo.png" style="width:80px"></l>
         <a href="logout.php">Logout</a>
         <a href="movie-search.php">Search for Movies</a>
         <a href="user-home.php">Your Profile</a>
@@ -159,8 +160,8 @@
         <?php
             if(count($_SESSION['genres']) > 0){
                 foreach($_SESSION['genres'] as $key=>$value){
-                    // Temporary minimum of 3 genres, to avoid going over movie API limits
-                    if($key >= 3) break;
+                    // Temporary minimum of 5 genres, to avoid going over movie API limits
+                    if($key >= 5) break;
 
                     
                     $con = mysqli_connect("localhost","root","","website_data");
@@ -170,7 +171,7 @@
 
                     $curl = curl_init();
                     curl_setopt_array($curl, [
-                        CURLOPT_URL => "https://online-movie-database.p.rapidapi.com/title/v2/get-popular-movies-by-genre?genre=".$value."&limit=100",
+                        CURLOPT_URL => "https://online-movie-database.p.rapidapi.com/title/v2/get-popular-movies-by-genre?genre=".strtolower($value)."&limit=100",
                         CURLOPT_RETURNTRANSFER => true,
                         CURLOPT_FOLLOWLOCATION => true,
                         CURLOPT_ENCODING => "",

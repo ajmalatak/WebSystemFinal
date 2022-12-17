@@ -111,10 +111,11 @@
 </head>  
 <body>    
     <div class="topnav">
+        <l><img src="img/logo.png" style="width:80px"></l>
         <a href="register.php">Register</a>
     </div>
     <div class="content-head">
-        <h2>Welcome to Social Media Squared.</h2> 
+        <h2>Welcome to MovieRex.</h2> 
         <p>Log in below to explore movies and TV.</p>  
     </div> 
     <div class="content">
