@@ -25,4 +25,4 @@ Step 5.
   - Note: When you add a movie to your favorites the page will refresh.
   
 Search Other Users Clarification.
-  For the 'Search Other Users' button put 'aksel' without the quotes into the search bar.
+  - For the 'Search Other Users' button put 'aksel' without the quotes into the search bar.
