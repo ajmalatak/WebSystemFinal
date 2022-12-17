@@ -1,5 +1,5 @@
 # WebSystemFinal
-Aksel Malatak, Anel Rizvic, Kasey Jackson, Pierce Neubert
+## Aksel Malatak, Anel Rizvic, Kasey Jackson, Pierce Neubert
 
 Step 1.
   After downloading the ZIP file and extracting the contents find the file location for 'xampp'.
