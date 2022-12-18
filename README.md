@@ -1,15 +1,19 @@
 # WebSystemFinal
 ## Aksel Malatak, Anel Rizvic, Kasey Jackson, Pierce Neubert
 
+**Step 0.**
+  - Make sure you have XAMPP downloaded and if not please download it.
+
 **Step 1.**
   - After downloading the ZIP file and extracting the contents find the file location for 'xampp'.
   - After getting to the file directory for 'xampp' make your way to the 'mysql' folder and then the 'data' folder.
     - In this folder move the folder named 'website_data' in the extracted ZIP file to the the 'data' folder.
+    - Also add the file 'ibdata1' into the 'data' folder.
 
 **Step 2.**
   - Find your way back to the main 'xampp' folder.
   - Find your 'htdocs' folder.
-    - In the 'htdocs' folder, copy and paste all of the files in the 'WebSystemFinal' folder except 'website_data' and the 'README' into 'htdocs'
+    - In the 'htdocs' folder, copy and paste all of the files in the 'WebSystemFinal' folder except 'website_data', 'README', and 'ibdata1' into 'htdocs'
     
 **Step 3.**
   - Open the XAMPP control panel.
